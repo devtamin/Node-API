@@ -1,19 +1,12 @@
-
 const express = require('express')
 const mongoose = require('mongoose')
 const productRoute = require('../routes/productRoute)
 
-
 const app = express()
-
-
 app.use(express.json())
 app.use(express.urlencoded({extended: false}))
 
 //routes
-
-
-
 app.get('/', (req, res) => {
     res.send('Hello NODE API')
 })
