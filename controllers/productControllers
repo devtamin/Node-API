@@ -1,3 +1,4 @@
+
 const Product = require('./models/productModel')
 const asyncHandler = require('express-async-handler')
 
@@ -78,3 +79,4 @@ module.exports = {
     updateProduct,
     deleteProduct
 }
+
